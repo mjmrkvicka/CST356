@@ -3,11 +3,28 @@ body {
 }
 
 #homeHeader {
-    color: magenta;
+    color: orangered;
+    position: relative;
 }
 
-h1 {
+#homeHeader img {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+}
+
+h1, h3 {
     color: darkslategray;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
 }
 
 ul {
@@ -47,7 +64,7 @@ th {
 }
 
 th, td {
-    padding: 5px;
+    padding: 5px 10px 5px 10px;
 }
 
 tr:nth-child(odd){background-color: rgb(228, 228, 228)}
