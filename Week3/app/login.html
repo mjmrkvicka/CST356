@@ -1,0 +1,51 @@
+<html>
+    <!--removeIf(production)-->
+    <link 
+        rel = "stylesheet"
+        type = "text/css"
+        href = "./css/styles.css" />
+    <!--endRemoveIf(production)-->
+
+    <!-- inject:css -->
+    <!-- endinject -->
+<body>
+
+    <h1>Login</h1>
+
+    <form>
+        <input 
+            type="text" 
+            name="username"
+            id="username" 
+            placeholder="Username">
+        <br><br>
+        <input 
+            type="text"
+            name="password"
+            id="password" 
+            placeholder="Password">
+        <br>
+    </form>
+
+    <div id="error"></div>
+
+    <button 
+        id="submit-btn"
+        type="submit">Submit
+    </button>
+
+    <!--removeIf(production)-->
+    <script src='js/login.js'></script>
+    <!--endRemoveIf(production)-->
+    
+    <!-- inject:js -->
+    <!-- endinject -->
+
+    <script>
+        $(document).ready(function() {
+            initializeLogin();
+        });
+    </script>
+
+</body>
+</html>

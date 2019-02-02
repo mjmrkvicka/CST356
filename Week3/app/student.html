@@ -1,0 +1,49 @@
+<html>
+    <!--removeIf(production)-->
+    <link 
+        rel = "stylesheet"
+        type = "text/css"
+        href = "./css/styles.css" />
+    <!--endRemoveIf(production)-->
+
+    <!-- inject:css -->
+    <!-- endinject -->
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="person.html">Persons</a></li>
+            <li><a class="active" href="student.html">Students</a></li>
+            <li><a href="login.html">Logoff</a></li>
+        </ul>
+    </nav>
+
+    <h1>Students</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Student ID</th>
+                <th>Email</th> 
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <!--removeIf(production)-->
+    <script src='js/students.js'></script>
+    <!--endRemoveIf(production)-->
+
+    <!-- inject:js -->
+    <!-- endinject -->
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            initializeStudents();
+        });
+    </script>
+
+</body>
+</html>
