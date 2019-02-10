@@ -1,0 +1,53 @@
+<template>
+  <div>
+  <html>
+  <body>
+
+    <h1 id="homeHeader">
+        Home Page
+        <img src="../assets/carrot.jpg">
+    </h1>
+
+
+    <h3>Paragraph 1</h3>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In finibus egestas dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed id dictum mauris. Nam sodales ipsum leo, gravida rhoncus ligula porta vel. Proin aliquam eros et dapibus vestibulum. Nunc pulvinar mi eros, feugiat lacinia lacus tempor sed. Etiam eget consequat mauris.
+    </p>
+
+    <h3>Paragraph 2</h3>
+
+    <p>
+        Duis mollis nisi id eros tristique, sit amet ornare erat aliquet. Donec lacinia malesuada risus. Morbi egestas non eros sed ornare. Vestibulum dignissim arcu sed bibendum pellentesque. Praesent semper luctus felis, nec auctor ante gravida id. Nulla feugiat lorem augue, in ultrices mauris tincidunt id. Nullam et laoreet sem. Phasellus scelerisque lorem in quam vulputate aliquam. Nulla ullamcorper dui elit, tempus elementum ante tempor vel. Phasellus accumsan elit dignissim lectus euismod, in volutpat est porta.
+    </p>
+
+    <h3>Paragraph 3</h3>
+
+    <p>
+        Ut eget interdum dui. Vestibulum at tincidunt velit, in egestas felis. Nam et mauris consequat, dapibus augue id, ultricies justo. Pellentesque blandit orci ut dolor convallis, at aliquam magna maximus. Proin et aliquam lorem. Nullam in tempus metus. Fusce laoreet pharetra nisl sit amet venenatis. In rhoncus purus ac libero ultrices dapibus.
+    </p>
+
+    <div class="footer">
+        <p>CST 356 - Lab 4</p>
+    </div>
+  </body>
+  </html>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Home',
+  data () {
+    return {
+    }
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+
+
+
+</style>
