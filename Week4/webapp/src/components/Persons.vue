@@ -54,13 +54,13 @@
 </template>
 
 <script>
-export default {
-  name: 'Persons',
-  data () {
-    return {
+    export default {
+    name: 'Persons',
+    data () {
+        return {
+        }
     }
-  }
-}
+    }
 </script>
 
 <style>
