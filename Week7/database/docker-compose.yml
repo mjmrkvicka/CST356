@@ -1,0 +1,14 @@
+
+version: '3'
+services:
+  dbserver:
+    image: postgres
+    container_name: dbserver
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+ 
+volumes:
+  db-data:
+    driver: local
