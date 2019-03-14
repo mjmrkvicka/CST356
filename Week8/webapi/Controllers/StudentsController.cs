@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Database;
-using Models;
+using Database.Entities;
 
 namespace webapi.Controllers
 {
@@ -13,17 +13,17 @@ namespace webapi.Controllers
     [ApiController]
     public class StudentsController : ControllerBase
     {
-        private readonly SchoolContext _dbContext;
+        private readonly IStudentService _studentService;
 
-        public StudentsController(SchoolContext dbContext)
+        public StudentsController(IStudentService studentService)
         {
-            _dbContext = dbContext;
+            _studentService = studentService;
         }
         // GET api/students
         [HttpGet]
-        public ActionResult<List<Student>> Get()
+        public ActionResult<List<Student>> GetAllStudents()
         {
-            return Ok(_dbContext.Students.Include(s => s.Person).ToList());
+            return Ok(_studentService.GetAllStudents());
         }
     }
 }
