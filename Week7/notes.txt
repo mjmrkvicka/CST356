@@ -1,0 +1,27 @@
+eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IlJUWTVSRUUzT1RVeE5VRXhOVVV3UXpWRVJEazBOekJFUWpjM1JFWTVPRGRCTmpoQ05FWkdOZyJ9.eyJpc3MiOiJodHRwczovL21tcmt2aWNrYS5hdXRoMC5jb20vIiwic3ViIjoiZDlkUkpOVDZKeFkyM3J1dDU1cklNQTVMV0RPSFdIdmxAY2xpZW50cyIsImF1ZCI6Imh0dHA6Ly9tbXJrdmlja2Evd2ViYXBpIiwiaWF0IjoxNTUyMTUzNDEzLCJleHAiOjE1NTIyMzk4MTMsImF6cCI6ImQ5ZFJKTlQ2SnhZMjNydXQ1NXJJTUE1TFdET0hXSHZsIiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIn0.NApbyG0jeOX5-EsM2MWTpSoCgDuU3ToOPVvS6dM1x-bnzBtZ6Bg3a5epeRljXI0swuFp3IvBfE_0qYsGOUhzWc7jgrs6lO9hUmXysgr52p9XQ7it1V2DGK-DYfANSC_1JZ7x2LS385PB9BxX5e4z3GJess3-kOjGk4SToBHoB_XPBvGz7UM1pBUCFJGmRc28KqZ1mNzXO6QREywrk3JKrLtzXwxGg5uEsnV4VuZ6jw7cXqVT02S2XhK25owVKZJsF11MkdOWBB1HOrxGMiImkh8RWgHLmVJplkXnC-TeaVfv31TzZk7A5p2tkAqObhYQ0TXy_Vqpbs5ZUTUVuWRIfA
+
+CREATE TABLE student (
+	student_id SERIAL PRIMARY KEY,
+	email_address VARCHAR(64) NOT NULL,
+	person_id INTEGER NOT NULL,
+	FOREIGN KEY (person_id) REFERENCES person (person_id) ON DELETE CASCADE
+);
+
+CREATE TABLE person (
+	person_id SERIAL PRIMARY KEY,
+	first_name VARCHAR(32) NOT NULL,
+	middle_name VARCHAR(32),
+	last_name VARCHAR(32) NOT NULL
+);
+
+
+    
+insert into student (email_address, person_id) values('john.smith@oit.edu', 1);
+insert into student (email_address, person_id) values('mary.jones@oit.edu', 2);
+
+
+insert into person (first_name, middle_name, last_name) values ('John', 'Robert', 'Smith');
+insert into person (first_name, last_name) values ('Mary', 'Jones');
+
+testuser
+APIsaregreat!
