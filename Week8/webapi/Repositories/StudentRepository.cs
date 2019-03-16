@@ -17,7 +17,7 @@ public class StudentRepository: IStudentRepository
     {
         try
         {
-            return _dbContext.Students.ToList();
+            return _dbContext.Students.Include(s => s.Person).ToList();
         } 
         catch(Exception ex)
         {

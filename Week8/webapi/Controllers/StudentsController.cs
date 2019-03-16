@@ -16,12 +16,13 @@ namespace webapi.Controllers
         private readonly IStudentService _studentService;
 
         public StudentsController(IStudentService studentService)
+
         {
             _studentService = studentService;
         }
         // GET api/students
         [HttpGet]
-        public ActionResult<List<Student>> GetAllStudents()
+        public ActionResult<List<StudentDto>> GetAllStudents()
         {
             return Ok(_studentService.GetAllStudents());
         }

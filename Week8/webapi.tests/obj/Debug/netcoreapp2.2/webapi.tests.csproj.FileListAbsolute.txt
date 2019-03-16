@@ -1,0 +1,17 @@
+/Users/Mrkvicka/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.dll
+/Users/Mrkvicka/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.pdb
+/Users/Mrkvicka/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/nunit.engine.netstandard.dll
+/Users/Mrkvicka/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/webapi.tests.deps.json
+/Users/Mrkvicka/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/webapi.tests.runtimeconfig.json
+/Users/Mrkvicka/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/webapi.tests.runtimeconfig.dev.json
+/Users/Mrkvicka/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/webapi.tests.dll
+/Users/Mrkvicka/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/webapi.tests.pdb
+/Users/Mrkvicka/CST356/Week8/webapi.tests/obj/Debug/netcoreapp2.2/webapi.tests.csprojAssemblyReference.cache
+/Users/Mrkvicka/CST356/Week8/webapi.tests/obj/Debug/netcoreapp2.2/webapi.tests.csproj.CoreCompileInputs.cache
+/Users/Mrkvicka/CST356/Week8/webapi.tests/obj/Debug/netcoreapp2.2/webapi.tests.AssemblyInfoInputs.cache
+/Users/Mrkvicka/CST356/Week8/webapi.tests/obj/Debug/netcoreapp2.2/webapi.tests.AssemblyInfo.cs
+/Users/Mrkvicka/CST356/Week8/webapi.tests/obj/Debug/netcoreapp2.2/webapi.tests.dll
+/Users/Mrkvicka/CST356/Week8/webapi.tests/obj/Debug/netcoreapp2.2/webapi.tests.pdb
+/Users/Mrkvicka/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/webapi.dll
+/Users/Mrkvicka/CST356/Week8/webapi.tests/bin/Debug/netcoreapp2.2/webapi.pdb
+/Users/Mrkvicka/CST356/Week8/webapi.tests/obj/Debug/netcoreapp2.2/webapi.tests.csproj.CopyComplete

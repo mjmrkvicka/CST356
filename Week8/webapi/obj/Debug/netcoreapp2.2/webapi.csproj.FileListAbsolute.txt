@@ -26,3 +26,17 @@
 /Users/Mrkvicka/CST356/Week6/webapi/bin/Debug/netcoreapp2.2/webapi.dll
 /Users/Mrkvicka/CST356/Week6/webapi/bin/Debug/netcoreapp2.2/webapi.pdb
 /Users/Mrkvicka/CST356/Week6/webapi/obj/Debug/netcoreapp2.2/webapi.RazorTargetAssemblyInfo.cache
+/Users/Mrkvicka/CST356/Week8/webapi/obj/Debug/netcoreapp2.2/webapi.csprojAssemblyReference.cache
+/Users/Mrkvicka/CST356/Week8/webapi/obj/Debug/netcoreapp2.2/webapi.csproj.CoreCompileInputs.cache
+/Users/Mrkvicka/CST356/Week8/webapi/obj/Debug/netcoreapp2.2/webapi.RazorAssemblyInfo.cache
+/Users/Mrkvicka/CST356/Week8/webapi/obj/Debug/netcoreapp2.2/webapi.RazorAssemblyInfo.cs
+/Users/Mrkvicka/CST356/Week8/webapi/obj/Debug/netcoreapp2.2/webapi.AssemblyInfoInputs.cache
+/Users/Mrkvicka/CST356/Week8/webapi/obj/Debug/netcoreapp2.2/webapi.AssemblyInfo.cs
+/Users/Mrkvicka/CST356/Week8/webapi/obj/Debug/netcoreapp2.2/webapi.dll
+/Users/Mrkvicka/CST356/Week8/webapi/obj/Debug/netcoreapp2.2/webapi.pdb
+/Users/Mrkvicka/CST356/Week8/webapi/bin/Debug/netcoreapp2.2/webapi.deps.json
+/Users/Mrkvicka/CST356/Week8/webapi/bin/Debug/netcoreapp2.2/webapi.runtimeconfig.json
+/Users/Mrkvicka/CST356/Week8/webapi/bin/Debug/netcoreapp2.2/webapi.runtimeconfig.dev.json
+/Users/Mrkvicka/CST356/Week8/webapi/bin/Debug/netcoreapp2.2/webapi.dll
+/Users/Mrkvicka/CST356/Week8/webapi/bin/Debug/netcoreapp2.2/webapi.pdb
+/Users/Mrkvicka/CST356/Week8/webapi/obj/Debug/netcoreapp2.2/webapi.RazorTargetAssemblyInfo.cache

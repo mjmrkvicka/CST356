@@ -12164,11 +12164,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Mrkvicka/CST356/Week6/webapi/webapi.csproj",
+      "projectUniqueName": "/Users/Mrkvicka/CST356/Week8/webapi/webapi.csproj",
       "projectName": "webapi",
-      "projectPath": "/Users/Mrkvicka/CST356/Week6/webapi/webapi.csproj",
+      "projectPath": "/Users/Mrkvicka/CST356/Week8/webapi/webapi.csproj",
       "packagesPath": "/Users/Mrkvicka/.nuget/packages/",
-      "outputPath": "/Users/Mrkvicka/CST356/Week6/webapi/obj/",
+      "outputPath": "/Users/Mrkvicka/CST356/Week8/webapi/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
